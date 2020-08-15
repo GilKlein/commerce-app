@@ -1,0 +1,88 @@
+body {
+    padding: 30px;
+    overflow-x: hidden;
+}
+
+h2{
+    text-align: center;
+    padding-top: 130px;
+    color: navy;
+}
+
+h1{
+    padding-left:17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+.authenticatorMessage{
+    padding-left:17px;
+}
+
+.btn-primary{
+    background-color: navy;
+}
+
+.layout{
+    position: fixed;
+    background-color: #a1a1a1;
+    z-index: 500;
+    width: 108%;
+    padding-left:50px;
+    transform: translateX(-50px);
+    margin-top: -30px;
+    box-shadow: none;
+    color: navy;
+    -webkit-box-shadow: 10px 10px 13px 0px rgba(51,51,51,0.77);
+    -moz-box-shadow: 10px 10px 13px 0px rgba(51,51,51,0.77);
+    box-shadow: 10px 10px 13px 0px rgba(51,51,51,0.77);
+    .nav{
+        background-color: #a1a1a1;
+        a{
+            color: white;
+        }
+    }
+    .nav a:hover{
+        color: navy;
+    }
+}
+
+.card_listing{
+    margin: 20px;
+}
+
+.card-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:28px;
+}
+
+.row{
+    align-content: center;
+    width: 107%;
+}
+
+.card{
+    width: 28.3%;
+    margin-left: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    -webkit-box-shadow: 4px 4px 6px 0px rgba(51,51,51,0.77);
+    -moz-box-shadow: 4px 4px 6px 0px rgba(51,51,51,0.77);
+    box-shadow: 4px 4px 6px 0px rgba(51,51,51,0.77);
+    border-radius: 20px;
+    border: 3px solid navy;
+    img{
+        border-radius: 20px;
+    }
+}
+
+.listing-page-listing{
+    padding-top: 130px;
+    width: auto!important;
+    border-radius: 0px;
+}
+
+.listing-card-listing{
+    width: 100%;
+    border-radius: 0px;
+}

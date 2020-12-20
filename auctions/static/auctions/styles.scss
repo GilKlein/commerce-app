@@ -1,5 +1,6 @@
 body {
-    padding: 30px;
+    width: 100vw!important;
+    padding-top: 30px;
     overflow-x: hidden;
 }
 
@@ -27,9 +28,8 @@ h1{
     position: fixed;
     background-color: #a1a1a1;
     z-index: 500;
-    width: 108%;
-    padding-left:50px;
-    transform: translateX(-50px);
+    width: 100vw!important;
+    transform: translateX(0px);
     margin-top: -30px;
     box-shadow: none;
     color: navy;
@@ -58,11 +58,11 @@ h1{
 
 .row{
     align-content: center;
-    width: 107%;
+    width: 100%;
 }
 
 .card{
-    width: 28.3%;
+    width: 28.33%;
     margin-left: 2.5%;
     margin-left: 2.5%;
     margin-top: 20px;

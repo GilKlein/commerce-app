@@ -33,9 +33,9 @@ h1{
     margin-top: -30px;
     box-shadow: none;
     color: navy;
-    -webkit-box-shadow: 10px 10px 13px 0px rgba(51,51,51,0.77);
-    -moz-box-shadow: 10px 10px 13px 0px rgba(51,51,51,0.77);
-    box-shadow: 10px 10px 13px 0px rgba(51,51,51,0.77);
+    -webkit-box-shadow: 0px 10px 13px 0px rgba(51,51,51,0.77);
+    -moz-box-shadow: 0px 10px 13px 0px rgba(51,51,51,0.77);
+    box-shadow: 0px 10px 13px 0px rgba(51,51,51,0.77);
     .nav{
         background-color: #a1a1a1;
         a{
@@ -57,14 +57,15 @@ h1{
 }
 
 .row{
-    align-content: center;
     width: 100%;
+    margin-left:0px!important;
+    margin-right:0px!important;
 }
 
 .card{
     width: 28.33%;
-    margin-left: 2.5%;
-    margin-left: 2.5%;
+    margin-left: 2.5%!important;
+    margin-right: 2.5%!important;
     margin-top: 20px;
     -webkit-box-shadow: 4px 4px 6px 0px rgba(51,51,51,0.77);
     -moz-box-shadow: 4px 4px 6px 0px rgba(51,51,51,0.77);
@@ -86,3 +87,46 @@ h1{
     width: 100%;
     border-radius: 0px;
 }
+
+
+
+
+
+
+
+// RULES FOR TABLETS
+@media only screen and (max-width: 980px) {
+
+    h2 {
+        font-size: 24px!important;
+    }
+    .card{
+        width: 80%;
+        margin-left: 10%!important;
+        margin-right: 10%!important;
+        margin-top: 30px;
+    }
+    body {
+        font-size: 16px!important;
+    }
+
+  }
+
+
+//   RULES FOR MOBILE
+@media only screen and (max-width: 600px) {
+
+    h2 {
+        font-size: 24px!important;
+    }
+    .card{
+        width: 80%;
+        margin-left: 10%!important;
+        margin-right: 10%!important;
+        margin-top: 30px;
+    }
+    body {
+        font-size: 16px!important;
+    }
+
+  }
